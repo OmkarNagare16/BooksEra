@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "305425424793",
+    "project_id": "booksera-5a09d",
+    "storage_bucket": "booksera-5a09d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305425424793:android:75b107126098a917efb308",
+        "android_client_info": {
+          "package_name": "com.example.booksera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305425424793-a2sa9seojdnqv25scrmqp8tq9feac4pf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.booksera",
+            "certificate_hash": "d76e0b80f019010a612f4e769c592717d4b54299"
+          }
+        },
+        {
+          "client_id": "305425424793-cgt57d8lijpdn37vm57kae1fcbj48kjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv6x2D7VFVFdzuQJB7l9sknfaBg6O44z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305425424793-cgt57d8lijpdn37vm57kae1fcbj48kjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

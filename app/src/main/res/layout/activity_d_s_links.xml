@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DSLinks">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Data Structures Concepts"
+        android:fontFamily="@font/aladin"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:padding="20dp">
+    </TextView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="40dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="@string/introduction_to_data_structures"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="@string/arrays"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="@string/searching_techniques"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="@string/sorting_techniques"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="@string/linked_list"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="@string/stacks"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl7"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="@string/queues"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl8"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="@string/recursion"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl9"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="@string/trees"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsl10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            app:cardElevation="20dp"
+            android:padding="20dp"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg32">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15sp"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:text="Graphics and Applications"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

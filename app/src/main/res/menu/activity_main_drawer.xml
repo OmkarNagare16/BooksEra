@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/books" />
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/ic_baseline_event_available_24"
+            android:title="@string/task" />
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/ic_outline_link_24"
+            android:title="@string/subscription" />
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/ic_baseline_card_membership_24"
+            android:title="Subscription" />
+        <item
+            android:id="@+id/btn_signout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="@string/Signout" />
+    </group>
+</menu>

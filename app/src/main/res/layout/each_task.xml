@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="377dp"
+        android:layout_height="108dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:id="@+id/due_date"
+            android:layout_width="280dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="64dp"
+            android:paddingStart="40sp"
+            android:paddingEnd="80sp"
+            android:text="@string/_31_3_2020"
+            android:textSize="14sp" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/mcheckbox"
+            android:layout_width="368dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="342dp"
+            android:layout_marginBottom="12dp"
+            android:buttonTint="@color/green_blue"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/this_is_task_1"
+            android:textSize="14sp" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

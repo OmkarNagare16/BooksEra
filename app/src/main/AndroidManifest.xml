@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.booksera">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens android:anyDensity="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BooksEra">
+        <activity android:name=".UserManual"></activity>
+        <activity android:name=".MathPdf" />
+        <activity android:name=".MathProductAdapter" />
+        <activity android:name=".maths" />
+        <activity android:name=".ANDPdf" />
+        <activity android:name=".ANDProductAdapter" />
+        <activity android:name=".AND" />
+        <activity android:name=".Subscription" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".OsProductAdapter" />
+        <activity android:name=".OsPdf" />
+        <activity android:name=".RdbmsPdf" />
+        <activity android:name=".ProductAdapter" />
+        <activity android:name=".ADJLinks" />
+        <activity android:name=".CLinks" />
+        <activity android:name=".JSPLinks" />
+        <activity android:name=".ANDROIDLinks" />
+        <activity android:name=".CPPLinks" />
+        <activity android:name=".DTLinks" />
+        <activity android:name=".RDBMSLinks" />
+        <activity android:name=".JSLinks" />
+        <activity android:name=".CSLinks" />
+        <activity android:name=".DSLinks" />
+        <activity android:name=".JavaLink" />
+        <activity android:name=".Links" />
+        <activity android:name=".os" />
+        <activity android:name=".rdbms" />
+        <activity android:name=".task" />
+        <activity
+            android:name=".nav"
+            android:label="@string/title_activity_nav"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.BooksEra.NoActionBar" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
